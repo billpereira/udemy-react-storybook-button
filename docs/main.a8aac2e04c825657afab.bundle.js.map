@@ -1,0 +1,1 @@
+{"version":3,"file":"main.a8aac2e04c825657afab.bundle.js","sources":["webpack:///./src/index.js"],"sourcesContent":["import React from 'react'\n\nexport default () => {\n  return (\n    <>\n      <button>button</button>\n    </>\n  )\n}\n"],"mappings":"AAAA","sourceRoot":""}
