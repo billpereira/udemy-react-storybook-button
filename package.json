@@ -1,0 +1,38 @@
+{
+  "name": "@billpereira/custom-button",
+  "module": "/dist/custom-button",
+  "version": "1.0.0",
+  "description": "React and Storybook",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billpereira/udemy-react-storybook-button.git"
+  },
+  "keywords": [],
+  "author": "William Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billpereira/udemy-react-storybook-button/issues"
+  },
+  "homepage": "https://github.com/billpereira/udemy-react-storybook-button#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^5.0.11",
+    "@storybook/components": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^2.0.2",
+    "react": "^16.8.6",
+    "storybook-addon-jsx": "^7.1.2",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack-cli": "^3.3.2"
+  }
+}
